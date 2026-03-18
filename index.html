@@ -1,0 +1,44 @@
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Med Card</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; padding: 20px; }
+        .card { background: white; width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); overflow: hidden; border: 2px solid #e74c3c; }
+        .header { background: #e74c3c; color: white; text-align: center; padding: 20px; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .content { padding: 20px; }
+        .info-group { margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .label { color: #7f8c8d; font-size: 14px; font-weight: bold; }
+        .value { color: #2c3e50; font-size: 18px; margin-top: 5px; }
+        .sos-button { display: block; background: #c0392b; color: white; text-align: center; padding: 15px; text-decoration: none; border-radius: 10px; font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>ЖЕДЕЛ МЕДИЦИНАЛЫҚ КАРТА</h1>
+        </div>
+        <div class="content">
+            <div class="info-group">
+                <div class="label">ТҰЛҒА:</div>
+                <div class="value">Айтпенбетова Маржан</div>
+            </div>
+            <div class="info-group">
+                <div class="label">ҚАН ТОБЫ:</div>
+                <div class="value" style="color: red; font-weight: bold;">AB (I) Rh+</div>
+            </div>
+            <div class="info-group">
+                <div class="label">АЛЛЕРГИЯ:</div>
+                <div class="value">Жок</div>
+            </div>
+            <div class="info-group">
+                <div class="label">ШҰҒЫЛ БАЙЛАНЫС (Жолдасы):</div>
+                <div class="value">+7 775 824 34 94</div>
+            </div>
+            <a href="tel:+77071234567" class="sos-button">ЖАҚЫНЫНА ҚОҢЫРАУ ШАЛУ</a>
+        </div>
+    </div>
+</body>
+</html>
